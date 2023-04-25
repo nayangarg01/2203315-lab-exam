@@ -1,0 +1,190 @@
+    1  ls -al
+    2  ls
+    3  who
+    4  logout
+    5  ssh-keygen -t RSA
+    6  ls
+    7  ls -al
+    8  cd .ssh
+    9  ls -al
+   10  cat id_rsa.pub
+   11  cd
+   12  git clone git@github.com:nayangarg01/cs102-spring-2023-init.git
+   13  ls -al
+   14  cd cs102-spring-2023-init
+   15  ls -al
+   16  touch file1
+   17  git status
+   18  git add file1
+   19  git status
+   20  git commit -m 'committed'
+   21  ls
+   22  git status
+   23  git push origin main
+   24  ls
+   25  git status
+   26  git pull
+   27  ls
+   28  cat file2
+   29  cd
+   30  git clone git@github.com:nayangarg01/nayangarg01.github.io.git
+   31  ls
+   32  ls -al
+   33  cd nayangarg01.github.io
+   34  ls
+   35  cat IMG_9173 (2).jpg
+   36  ls
+   37  cd
+   38  logout
+   39  ls
+   40  ls -al
+   41  touch file1
+   42  logout
+   43  ls
+   44  rm now.txt
+   45  ls
+   46  rm file1
+   47  ls -alp
+   48  ls -al
+   49  nano 
+   50  ls
+   51  cat nayan.txt
+   52  rm nayan
+   53  rm nayan.txt
+   54  ls
+   55  logout
+   56  ls
+   57  git clone git@github.com:nayangarg01/2203315-lab-exam.git
+   58  ls
+   59  cd 2203315-lab-exam
+   60  ls
+   61  vim README.md
+   62  cd
+   63  git clone git@github.com:tusharlone/cs102-git-essentials.git
+   64  ls
+   65  cd cs102-git-essentials
+   66  l
+   67  ls
+   68  mv ca_500.csv ~/2203315-lab-exam
+   69  cd
+   70  ls
+   71  cd 2203315-lab-exam
+   72  ls
+   73  cd
+   74  cd cs102-git-essentials
+   75  mv us_500.csv  ~/2203315-lab-exam
+   76  cd
+   77  cd cs102-git-essentials
+   78  ls
+   79  cd 2203315-lab-exam
+   80  cd
+   81  cd 2203315-lab-exam
+   82  ls
+   83  vim ca_500.csv
+   84  wc -l ca_500.csv
+   85  wc -l us_500.csv
+   86  head -n 1 ca_500.csv
+   87  wc -l ca_500.csv>>ca_city_Montreal.csv
+   88  wc -l us_500.csv>>ca_city_Montreal.csv
+   89  vim ca_city_Montreal.csv
+   90  find ./ -city Montreal>>ca_city_Montreal.csv
+   91  wc -l ca_500.csv>>ca_city_Montreal.csv
+   92  wc -l us_500.csv>>ca_city_Montreal.csv
+   93  vim ca_500.csv
+   94  vim ca_city_Montreal.csv
+   95  wc -l ca_500.csv>>ca_city_Montreal.csv
+   96  wc -l us_500.csv>>ca_city_Montreal.csv
+   97  head -n 1 ca_500.csv>>ca_city_Montreal.csv
+   98  head -n 1 us_500.csv>>ca_city_Montreal.csv
+   99  cat ca_city_Montreal.csv
+  100  touch 2203315_data_filter.sh
+  101  vim 2203315_data_filter.sh
+  102  grep "Montreal" ca_500.csv>>ca_city_Montreal.csv
+  103  cat ca_city_Montreal.csv
+  104  vim ca_city_Montreal.csv
+  105  vim 2203315_data_filter.sh
+  106  vim ca_city_Montreal.csv
+  107  vim 2203315_data_filter.sh
+  108  ls
+  109  mkdir code
+  110  cd code
+  111  cd .
+  112  cd ..
+  113  cdls
+  114  ls
+  115  vim 2203315_data_filter.sh 
+  116  bash 2203315_data_filter.sh 
+  117  vim 2203315_data_filter.sh 
+  118  bash 2203315_data_filter.sh 
+  119  vim 2203315_data_filter.sh 
+  120  bash 2203315_data_filter.sh 
+  121  vim 2203315_data_filter.sh 
+  122  bash 2203315_data_filter.sh 
+  123  vim 2203315_data_filter.sh 
+  124  bash 2203315_data_filter.sh 
+  125  vim 2203315_data_filter.sh 
+  126  bash 2203315_data_filter.sh us_500.csv city Miami
+  127  vim 2203315_data_filter.sh 
+  128  bash 2203315_data_filter.sh us_500.csv city Miami
+  129  vim 2203315_data_filter.sh 
+  130  bash 2203315_data_filter.sh us_500.csv city Miami
+  131  vim 2203315_data_filter.sh 
+  132  bash 2203315_data_filter.sh us_500.csv city Miami
+  133  vim 2203315_data_filter.sh 
+  134  bash 2203315_data_filter.sh us_500.csv city Miami
+  135  ls
+  136  vim 2203315_data_filter.sh 
+  137  bash 2203315_data_filter.sh us_500.csv city Miami
+  138  ls
+  139  cat uscityMiami.csv 
+  140  vim 2203315_data_filter.sh 
+  141  bash 2203315_data_filter.sh us_500.csv city Miami
+  142  ls
+  143  cat uscityMiami.csv 
+  144  vim 2203315_data_filter.sh 
+  145  rm uscityMiami.csv 
+  146  ls
+  147  bash 2203315_data_filter.sh us_500.csv city Miami
+  148  vim 2203315_data_filter.sh 
+  149  bash 2203315_data_filter.sh us_500.csv city Miami
+  150  cat uscityMiami.csv 
+  151  vim 2203315_data_filter.sh 
+  152  bash 2203315_data_filter.sh us_500.csv city Miami
+  153  ls
+  154  cat uscityMiami.csv
+  155  vim 2203315_data_filter.sh 
+  156  rm uscityMiami.csv 
+  157  ls
+  158  bash 2203315_data_filter.sh us_500.csv city Miami
+  159  ls
+  160  cat uscityMiami.csv 
+  161  vim 2203315_data_filter.sh 
+  162  ls
+  163  mv 2203315_data_filter.sh ./code
+  164  cd code
+  165  ls
+  166  vim 2203315_data_filter.sh 
+  167  bash 2203315_data_filter.sh us_500.csv city Miami
+  168  d ..
+  169  cd .\
+  170  ls
+  171  cd 2203315-lab-exam
+  172  ls
+  173  bash 2203315_data_filter.sh us_500.csv city Miami
+  174  mkdir data
+  175  rm uscityMiami.csv 
+  176  ls
+  177  mv *.csv data
+  178  ls
+  179  cd code
+  180  ls
+  181  rm uscityMiami.csv 
+  182  ls
+  183  cd dat
+  184  cd data
+  185  cd .
+  186  cd ..
+  187  cd data
+  188  cd ..
+  189  history
+  190  history > 2203315_history.txt
